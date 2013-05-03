@@ -14,7 +14,7 @@ attribute "dependencies/debs",
   :description => "A list of Debian packages (.deb) to install",
   :required => false,
   :type => 'hash'
-  
+
 attribute "dependencies/update_debs",
   :display_name => "Update sources",
   :description => "Update sources using apt-get update",
